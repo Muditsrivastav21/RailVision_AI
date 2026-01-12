@@ -1,0 +1,40 @@
+# General
+.DS_Store
+Thumbs.db
+.env
+.env.local
+.vscode/
+.idea/
+
+# Python / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+# Training logs (but keep trained model weights)
+*.log
+# Note: backend/runs/ is NOT ignored - trained models are pushed to repo
+
+# Node.js / Frontend
+node_modules/
+.next/
+dist/
+build/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Large Media Files (Optional - Comment out if needed)
+*.mp4
+*.avi
+*.mov
+# Keep example assets if needed, but ignore raw footage
+# assets/
+
+# Models
+# We keep base models (yolo*.pt, RealESRGAN*.pth) as they are critical and small (<100MB)
+# If you add large custom models, add them here.

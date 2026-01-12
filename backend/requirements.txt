@@ -1,0 +1,27 @@
+# Core API & Server
+fastapi
+uvicorn
+python-multipart
+websockets
+requests
+
+# Computer Vision & ML Core
+numpy
+opencv-python
+pillow
+torch
+torchvision
+scipy
+
+# Object Detection
+ultralytics
+roboflow
+
+# OCR Engines
+paddleocr
+paddlepaddle
+easyocr
+
+# Image Restoration / Deblurring
+realesrgan
+basicsr
