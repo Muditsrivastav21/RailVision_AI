@@ -28,7 +28,7 @@ except ImportError:
 
 app = FastAPI(title="RailVision AI Backend", version="2.0")
 
-# In-memory buffer to support "top 10 frames with highest blur correction applied".
+# In-memory buffer to support "top 10 frames with highest blur correction applied"
 # Each item: {"score": float, "frame_id": int, "quality": {...}, "original_image": str, "enhanced_image": str}
 top_frames = deque(maxlen=200)
 
