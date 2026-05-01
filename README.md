@@ -67,7 +67,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-### Configure Model Weights
+### Configure Model Weight
 
 This repository includes the trained YOLO and deblurring models under `backend/runs/` so that the project works **out of the box** after cloning (no separate download step required).
 
