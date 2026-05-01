@@ -8,7 +8,7 @@ from ocr_engine import batch_extract_wagon_numbers
 
 class Detector:
     def __init__(self):
-        # Base path for models
+        # Base path for modelss
         base_dir = os.path.dirname(__file__)
         # 1. Damage Detection Model (latest)
         damage_model_path = os.path.join(base_dir, "runs", "detect", "wagon_damage_v13", "weights", "best.pt")
